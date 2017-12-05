@@ -1,3 +1,11 @@
+'''
+
+Tutaj będe wrzucał różne funkcje związane z datami
+
+'''
 from datetime import date
 
-print("Today is %s, %s" % (date.today().strftime('%A'), date.today()))
+dzien_tygodnia = date.today().strftime('%A')
+data_dzisiejsza = date.today()
+
+print("Today is %s, %s" % (dzien_tygodnia, data_dzisiejsza))
