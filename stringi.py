@@ -21,3 +21,5 @@ print(jakis_tekst.find("ba", 6))  # zwraca na kotrym miejscu jest w stringu poda
                                   # oraz od ktorego zaczynamy (mozna tez podac na ktorym konczymy szukanie)
 print(jakis_tekst.replace('ba', 'ka'))  # zamienia string(znak na nowy string (znak)
 print(jakis_tekst.split("a"))  # zwraca liste, a jako parametr podajemy separator ktory oddziela elementy listy
+print("".join(reversed(jakis_tekst)))  # a to odwraca tekst
+print(jakis_tekst[::-1])  # to również, ale nie przez funkcje tylko przez cięcie
