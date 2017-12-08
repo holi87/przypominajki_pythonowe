@@ -23,3 +23,11 @@ print(jakis_tekst.replace('ba', 'ka'))  # zamienia string(znak na nowy string (z
 print(jakis_tekst.split("a"))  # zwraca liste, a jako parametr podajemy separator ktory oddziela elementy listy
 print("".join(reversed(jakis_tekst)))  # a to odwraca tekst
 print(jakis_tekst[::-1])  # to również, ale nie przez funkcje tylko przez cięcie
+jakis_inny_tekst = "ale nie wiedziala jak"
+print(jakis_tekst + " " + jakis_inny_tekst)  # a tu konkatenacja
+print(r"xxxx\xxx\xx\x")  # r jak raw przekazu je dokladnie to co w stringu
+print("costam %s i costam %d" % ("xxx", 115))  # formatowanie, string i liczba
+print("costam %12s i costam %11d" % ("xxx", 115))  # jw z rezerwacja miejsc
+print("costam {1:20s} a moze {0:7}".format(111, "sialala"))   # podobnie ale z uzyciem formatowania, fajne bo pozwala
+                                                              # na zmiane kolejnosci parametrow, od razu z rezerwacja
+                                                              # miejsca
